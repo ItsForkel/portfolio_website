@@ -1,0 +1,128 @@
+body /* body styling */{ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    color: #ffffff;
+}
+header /* header styling */{
+    background-color: #69369E;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul /* navigation styling */{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li /* navigation list styling */{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a /* navigation link styling */{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* home layout */
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+/* text on home */
+.text-content {
+    flex: 1;
+    text-align: left;
+    background: #828282;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(105, 54, 158, 0.5);
+    margin-right: 20px;
+}
+.text-content h1 /* text content styling */{
+    font-size: 3rem;
+}
+.text-content p /* text content styling */{
+    font-size: 1.5rem;
+}
+/* about layout */
+.about-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* text on about */
+.text-content {
+    flex: 1;
+    text-align: left;
+    background: #828282;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(105, 54, 158, 0.5);
+}
+.text-content h1 /* text content styling */{
+    font-size: 3rem;
+    color: #69369E;
+}
+.text-content p /* text content styling */{
+    font-size: 1.5rem;
+}
+/* image stuff */
+.image-content img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(105, 54, 158, 0.5);
+}
+
+/* main styling content stuff */
+main {
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #69369E;
+}
+/* form styling content stuff */
+form {
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #828282;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(105, 54, 158, 0.5);
+}
+form input, form textarea /* input and textarea styling */{
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #626262;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* message box styling */
+form textarea {
+    resize: vertical; /* option to resize the message box vertically */
+}
+/* submit button styling*/
+form button {
+    background-color: #69369E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+form button:hover /* hover styling */{
+    background-color: #7951A8;
+}
