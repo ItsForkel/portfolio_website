@@ -56,8 +56,12 @@ nav ul li a /* navigation link styling */{
     max-width: 80%;
     margin: auto;
     padding: 50px 0;
+    flex-direction: row;
 }
-
+.image-content {
+    flex-shrink: 0; /* prevents image from resizing */
+    margin-right: 40px; /* increased space between the image and text */
+}
 /* text on about */
 .text-content {
     flex: 1;
@@ -76,10 +80,10 @@ nav ul li a /* navigation link styling */{
 }
 /* image stuff */
 .image-content img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: auto;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(105, 54, 158, 0.5);
 }
 
