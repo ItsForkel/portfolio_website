@@ -1,3 +1,6 @@
+// this code works with client side by allowing the contacts page to actually take submissions.
+
+
 const express = require('express');
 const path = require('path');
 const app = express();
