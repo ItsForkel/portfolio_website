@@ -15,11 +15,13 @@ app.post('/submit-form', (req, res) => {
     const email = req.body.email;
     const message = req.body.message;
     res.send(`
+        <div class="submission-message">
         <h1>Thanks, ${name}!</h1>
         <p>We received your message:</p>
         <blockquote>${message}</blockquote>
         <p>We'll reach out to you at <strong>${email}</strong>.</p>
         <a href="/contact.html">Back to Contact Page</a>
+        </div>
     `);
 });
 

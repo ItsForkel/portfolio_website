@@ -130,3 +130,47 @@ form button {
 form button:hover /* hover styling */{
     background-color: #7951A8;
 }
+/* submission message styling */
+.submission-message {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #232323;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(105, 54, 158, 0.5);
+}
+
+.submission-message h1 {
+    color: #69369E;
+    font-size: 2.5rem;
+}
+
+.submission-message p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.submission-message blockquote {
+    font-style: italic;
+    font-size: 1.25rem;
+    background: #828282;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(105, 54, 158, 0.5);
+}
+
+.submission-message a {
+    display: inline-block;
+    background-color: #69369E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.submission-message a:hover {
+    background-color: #7951A8;
+}
